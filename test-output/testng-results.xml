@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6745" started-at="2017-05-12T09:35:49Z" finished-at="2017-05-12T09:35:56Z">
+    <groups>
+    </groups>
+    <test name="chromeTestcases" duration-ms="5229" started-at="2017-05-12T09:35:49Z" finished-at="2017-05-12T09:35:54Z">
+      <class name="com.mst.grid">
+        <test-method status="PASS" signature="testgrid(java.lang.String)[pri:0, instance:com.mst.grid@e45f292]" name="testgrid" is-config="true" duration-ms="4413" started-at="2017-05-12T15:05:49Z" finished-at="2017-05-12T15:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgrid -->
+        <test-method status="PASS" signature="testWebApp()[pri:0, instance:com.mst.grid@e45f292]" name="testWebApp" duration-ms="788" started-at="2017-05-12T15:05:54Z" finished-at="2017-05-12T15:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mst.grid@e45f292]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-12T15:05:54Z" finished-at="2017-05-12T15:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mst.grid -->
+    </test> <!-- chromeTestcases -->
+    <test name="firefoxTestcases" duration-ms="6745" started-at="2017-05-12T09:35:49Z" finished-at="2017-05-12T09:35:56Z">
+      <class name="com.mst.grid">
+        <test-method status="PASS" signature="testgrid(java.lang.String)[pri:0, instance:com.mst.grid@204f30ec]" name="testgrid" is-config="true" duration-ms="6169" started-at="2017-05-12T15:05:49Z" finished-at="2017-05-12T15:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgrid -->
+        <test-method status="PASS" signature="testWebApp()[pri:0, instance:com.mst.grid@204f30ec]" name="testWebApp" duration-ms="570" started-at="2017-05-12T15:05:55Z" finished-at="2017-05-12T15:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebApp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mst.grid@204f30ec]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-12T15:05:56Z" finished-at="2017-05-12T15:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mst.grid -->
+    </test> <!-- firefoxTestcases -->
+  </suite> <!-- Suite -->
+</testng-results>
