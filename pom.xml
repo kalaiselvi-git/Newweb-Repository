@@ -18,7 +18,7 @@
     </snapshotRepository>
 <repository>
            <id>MavenRelease</id>
-        <url>https://github.com/raja-M1993/DevopsJAVA.git</url>
+        <url>https://github.com/kalaiselvi-git/Newweb-Repository.git</url>
      </repository>
      </distributionManagement> 
   <dependencies>
