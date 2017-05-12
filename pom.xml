@@ -3,13 +3,13 @@
   <groupId>com.mst</groupId>
   <artifactId>webApps</artifactId>
   <packaging>war</packaging>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.6-SNAPSHOT</version>
   <name>webApps Maven Webapp</name>
   <url>http://maven.apache.org</url>
    <scm>
      <connection>scm:git:https://github.com/kalaiselvi-git/Newweb-Repository.git</connection>
      <url>scm:git:https://github.com/kalaiselvi-git/Newweb-Repository.git</url>
-     <tag>webApps-0.0.5</tag>
+     <tag>webApps-0.0.6</tag>
   </scm>
   <distributionManagement>
    <snapshotRepository>
