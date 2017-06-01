@@ -35,9 +35,9 @@ public class Admission extends HttpServlet {
 		// TODO Auto-generated method stub
 		System.out.println("Insertion started-------!!");
 		String stname=request.getParameter("stname");
-		String rollno=request.getParameter("roll");
+		int rollno=Integer.parseInt(request.getParameter("roll"));
 		String course=request.getParameter("course");
-		String fees=request.getParameter("fees");
+		int fees=Integer.parseInt(request.getParameter("fees"));
 		
 		DisplayData disp=new DisplayData();
 		disp.setName(stname);
